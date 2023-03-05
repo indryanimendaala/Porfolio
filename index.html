@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portofolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous">
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+
+<body id="home">
+    <nav class="navbar navbar-expand-lg navbar-dark shadow fixed-top" style="background-color: #0ab8d6ee;">
+        <div class="container">
+            <a class="navbar-brand " href="#">Indryani Mendaala</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#AboutMe">AboutMe</a>
+                        <link rel="stylesheet" href="">
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#ContactMe">Contact Me</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section class="jumbotron text-center">
+        <img src="indry.jpeg" alt="Indryani Mendaala" width="300" class="rounded-circle img-thumbnail">
+        <h1 class="display-6">Indryani Mendaala</h1>
+        <p class="lead">Mahasiswa | Universitas Negeri Manado | Sulawesi Utara</p>
+    </section>
+
+    <section id="AboutMe">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>AboutMe</h2>
+                </div>
+            </div>
+            <div class="row justify-content-between fs-5 text-center">
+                <div class="col-md-6">
+                    <p>Nama saya Indryani Mendaala, lahir di Bitung 19 Maret 2002, saya berasal dari Sulawesi Utara,
+                        Alamat
+                        saya di Kel.Bitung Barat 2, Kec.Maesa, RT.002, RW.004, Jalan.Belakang Kontener.</p>
+                </div>
+                <div class="col-md-6">
+                    <p>Saya mahasiswa S1 Teknik Informatika yang memiliki spesialisasi dalam bidang manajemen database
+                        dan web developer. Saya memiliki kepercayaan diri, jiwa kepemimpinan, manajemen waktu, dan
+                        komunikasi yang baik. Baik menggunakan SQL, HTML,PHP.</p>
+                </div>
+    </section>
+
+    <section id="Portfolio">
+        <div class="container">
+            <div class="row text-center mb-3">
+                <div class="col">
+                    <h2>Portfolio</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="1.jpg" class="card-img-top" alt="Project 1" />
+                        <div class="card-body">
+                            <p class="card-text">Saya pernah membuat website penjualan online.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="2.jpeg" class="card-img-top" alt="Project 2" />
+                        <div class="card-body">
+                            <p class="card-text">Saya pernah membuat website pembelajaran berbasis E-learning.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <div class="card">
+                        <img src="3.png" class="card-img-top" alt="Project 3" />
+                        <div class="card-body">
+                            <p class="card-text">Saya pernah membuat website CRUD barang dengan membuat data base dari data yasng telah saya kumpulkan.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="ContactMe">
+        <div class="container">
+            <h2 class="text-center mb-3">ContactMe</h2>
+            <div class="row">
+                <div class="col-md-8 mx-auto">
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+            <!-- Section: Social media -->
+            <div class="mb-4">
+                <!-- Facebook -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
+
+                <!-- Twitter -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
+
+                <!-- Google -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-google"></i></a>
+
+                <!-- Instagram -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
+
+                <!-- Linkedin -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
+                <!-- Github -->
+                <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    data-mdb-ripple-color="dark"><i class="fab fa-github"></i></a>
+            </div>
+            <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2023 Create BY Indryani Mendaala
+            <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+    </footer>
+
+
+
+</body>
+
+</html>
